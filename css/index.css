@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+
+header {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid rgb(49, 49, 49) 1px;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 87, 122, 0.5),
+      rgb(0, 136, 145, 0.4),
+      rgb(231, 231, 222, 0.1)
+    ),
+    url("../imgs/windmill_landscape.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
