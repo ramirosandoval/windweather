@@ -6,13 +6,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
     <title>Wind Weather</title>
 </head>
 <body>
     <header>
-        <h1>Wind Weather</h1>
-        <p>Weather around the globe</p>
+        <nav>
+            <div id="icon">
+                <span>Wind Weather</span>
+                <i class='bx bx-wind' style='color:#ffffff'  ></i>
+            </div>
+            
+            <a href="http://">Sign Up</a>
+        </nav>
+
+        <div id="text">
+            <h1>Weather around the globe</h1>
+        </div>
+
+        <i class='bx bx-down-arrow-alt'></i>
     </header>
+
+    <main>
+        <section id="inputs-section">
+            <h2 id="inputs-title">Search from everywhere!</h2>
+
+            <form action="">
+                <div class="user-input-container" id="state-input-container">
+                    <h3>State</h3>
+                    <input type="text" placeholder = "Your state" id="state-input">
+                    <p>i.e: Buenos Aires</p>
+                </div>
+
+                <div class="user-input-container" id="country-input-container">
+                    <h3>Country</h3>
+                    <input type="text" placeholder = "Your country" id="country-input">
+                    <p>i.e: Argentina</p>
+                </div>
+            </form>
+        </section>
+
+        <section id="weather">
+
+        </section>
+    </main>
+
 </body>
 </html>
