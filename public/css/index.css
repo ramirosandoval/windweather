@@ -188,8 +188,17 @@ section i {
 
 
 @media (max-width : 700px){
+
   html{
-    font-size: 10px;
+      font-size: 10px;
+    }
+
+  #hero{
+    background-image: linear-gradient(
+      rgba(27, 38, 44, 0.75),
+      rgba(27, 38, 44, 0.75)
+    ),
+    url("../imgs/windmill_landscape_short.jpg");
   }
 
   #hero nav a{
