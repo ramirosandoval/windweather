@@ -185,3 +185,92 @@ section i {
   font-size: 2rem;
   color: rgba(255, 255, 255, 0.5);
 }
+
+
+@media (max-width : 700px){
+  html{
+    font-size: 10px;
+  }
+
+  #hero nav a{
+    font-size: 1.5rem;
+  }
+
+  #hero-text{
+    font-size: 2.75rem;
+    max-width: 95vw;
+    white-space: nowrap;
+  }
+
+  section{
+    padding: 0;
+  }
+
+  #inputs-section {
+    text-align: center;
+    height: 103vh;
+    padding: 5% 0;
+  }
+
+  #inputs-title {
+    font-size: 2.75rem;
+    margin-top: 0;
+}
+
+#city-input-container{
+  border-right: none;
+  border-bottom: solid rgba(255, 255, 255, 0.1) 1px;
+}
+
+input{
+  width: 25vw;
+}
+
+  h3{
+    font-size: 1.6rem;
+  }
+
+  form{
+    flex-direction: column;
+  }
+
+  #noinfo{
+    font-size: 2.75rem;
+  }
+
+  #noinfo-description {
+    font-size: 1.375rem;
+  }
+
+  .weather-container{
+    width: 75vw;
+  }
+
+  #weather-header{
+    width: 100%;
+  }
+
+  #weather-header h1, #weather-header i {
+    font-size: 6rem;
+  }
+
+  .range-temps{
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width : 700px) and (max-width : 992px){
+
+  html{
+    font-size: 10px;
+  }
+
+  #noinfo{
+    white-space: nowrap;
+    font-size: 3rem;
+  }
+
+  #noinfo-description{
+    font-size: 1.5rem;
+  }
+}

@@ -47,11 +47,11 @@ const Weather = ({city, country, result}) =>{
 
                 <section id="temperatures-container">
                         <div id="min-temp-container">
-                            <h3>Min temp: {(main.temp_min - 273.15).toFixed(1)}</h3>
+                            <h3 className="range-temps">Min temp: {(main.temp_min - 273.15).toFixed(1)}</h3>
                         </div>
 
                         <div id="max-temp-container">
-                            <h3>Max temp: {(main.temp_max - 273.15).toFixed(1)}</h3>
+                            <h3 className="range-temps">Max temp: {(main.temp_max - 273.15).toFixed(1)}</h3>
                         </div>        
                 </section>
 
